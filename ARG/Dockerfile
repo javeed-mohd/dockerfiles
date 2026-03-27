@@ -4,5 +4,5 @@ FROM almalinux:${version:-8}
 ARG COURSE="Docker" \
     DURATION="12 Hours" \
     SOURCE="Amazon Web Services"
-RUN echo "Course is: ${COURSE}, Version is: ${version}"
+RUN echo "Course is: ${COURSE}"
 CMD ["sleep","200"]
