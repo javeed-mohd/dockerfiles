@@ -1,8 +1,8 @@
-# ARG can be first instruction in a special case to supply the version to base image.
+# ARG can be first instruction in a special case to supply the version to base image. ARG version can't be used beyound FROM instruction.
 ARG version
 FROM almalinux:${version:-8}
 ARG COURSE="Docker" \
     DURATION="12 Hours" \
     SOURCE="Amazon Web Services"
-RUN echo "Course is: ${COURSE}"
+RUN echo "Course is: ${COURSE}, Version is: ${version}"
 CMD ["sleep","200"]
