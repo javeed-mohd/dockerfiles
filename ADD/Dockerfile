@@ -5,3 +5,4 @@
 # 2. It can untar(extracts) the content directly in the image.
 FROM almalinux:9
 ADD https://raw.githubusercontent.com/daws-88s/roboshop-documentation/refs/heads/main/01-mongodb.MD /tmp/
+ADD sample-1.tar /tmp/
