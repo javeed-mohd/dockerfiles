@@ -36,3 +36,9 @@
 * docker images 				--> Available Images
 * docker pull nginx 			--> Pull the image from dockerhub (download)
 * docker rmi nginx 			    --> Remove the image
+
+## Other Commands:
+
+* docker run -d -p 80:80 --name frontend nginx --> To expose to the public with port number 80.
+* docker exec -it frontend bash --> To login inside the container with specific name.
+
