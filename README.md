@@ -16,23 +16,23 @@
 
 ## Basic Commands:
 
-docker --version			-> Check version
-docker version				-> Detailed version information
-docker info				-> System information
-docker help				-> List all commands
+* docker --version			    -> Check version
+* docker version			    -> Detailed version information
+* docker info				    -> System information
+* docker help				    -> List all commands
 
 ## Container Commands:
 
-docker ps 				-> Running containers
-docker ps -a				-> All the containers
-docker create nginx 			-> Creates the containers, status is created
-docker start <container-id> 		-> Start the container
-docker stop <container-id>		-> Stop the container
-docker rm <container-id> 		-> Remove the container
-docker run nginx 			-> pull + create + start
+* docker ps 				    -> Running containers
+* docker ps -a				    -> All the containers
+* docker create nginx 			-> Creates the containers, status is created
+* docker start <container-id>   -> Start the container
+* docker stop <container-id>	-> Stop the container
+* docker rm <container-id> 		-> Remove the container
+* docker run nginx 			    -> pull + create + start
 
 ## Image Commands:
 
-docker images 				-> Available Images
-docker pull nginx 			-> Pull the image from dockerhub (download)
-docker rmi nginx 			-> Remove the image
+* docker images 				-> Available Images
+* docker pull nginx 			-> Pull the image from dockerhub (download)
+* docker rmi nginx 			    -> Remove the image
