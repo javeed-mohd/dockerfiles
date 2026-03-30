@@ -7,11 +7,6 @@
 * sudo systemctl enable docker
 * sudo usermod -aG docker ec2-user
 
-## Enable & Status Checking
-
-* sudo systemctl enable docker
-* sudo systemctl status docker
-
 # Docker Commands
 
 ## Basic Commands:
